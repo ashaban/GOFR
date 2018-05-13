@@ -1,0 +1,29 @@
+{
+  "name": "gofr",
+  "version": "1.0.0",
+  "description": "GOFR",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashaban/GOFR.git"
+  },
+  "keywords": [
+    "GOFR",
+    "facility",
+    "reconciliation"
+  ],
+  "author": "Ally Shaban <allyshaban5@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashaban/GOFR/issues"
+  },
+  "homepage": "https://github.com/ashaban/GOFR#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongoose": "^4.1.11",
+    "node-oauth2-server": "^2.4.0"
+  }
+}
