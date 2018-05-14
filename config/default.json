@@ -1,0 +1,25 @@
+{
+  "server": {
+    "hostname": "0.0.0.0",
+    "port": 3000
+  },
+  "mongodb": {
+    "host":"localhost",
+    "port":"27017",
+    "database":"gofr",
+    "user":"",
+    "password":""
+  },
+  "oauth": {
+    "accessTokenLifetime": 3600,
+    "debug":true
+  },
+  "logger": {
+    "level": "info"
+  },
+  "uploadHeaders":[
+    "name",
+    "latitude",
+    "longitude"
+  ]
+}
